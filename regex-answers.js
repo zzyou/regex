@@ -27,7 +27,7 @@ function ing(string) {
     return newArr.join(" ");
   }
   
-  ing("Playing hard. Studying hard. Ingredients are playing?");
+ing("Playing hard. Studying hard. Ingredients are playing?");
 
 
 //4. Write a function that takes a string and returns true if it is an email address? Compare your answer with your neighbor.
@@ -35,12 +35,13 @@ function email(string) {
     return /.+@.+\..+/.test(string);
   }
   
-  email("name@email.com");
+email("name@email.com");
 
 
 //5. Write a function that takes a string containing names separated by commas like "Leah, Russell, Michelle" and returns an array of names, ["Leah", "Russell", "Michelle"]
 function toArray(names) {
     return names.split(",");
   }
-  toArray("Leah, Russell, Michelle");
+
+toArray("Leah, Russell, Michelle");
 
