@@ -45,3 +45,13 @@ function toArray(names) {
 
 toArray("Leah, Russell, Michelle");
 
+
+//Write a regular expression that matches any of the Techontica participants names but not the instructors
+var ourNames = ["Michelle", "Stephanie", "Mary", "Ashley", "Zaire", "Lian", "TaLea", "Soona", "Vivian", "Zhenzhen", "Karla"];
+//Only "Karla" is the instructor.
+
+/^[^K]/i.test("Karla");
+
+
+//What about a regular expression for all even-length strings?
+
