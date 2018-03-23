@@ -1,2 +1,2 @@
-# Regualar Expression
+# Regular Expression
 RegEx exercise at Techtonica
